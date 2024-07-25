@@ -1,0 +1,64 @@
+@media (max-width: 576px) {
+  .appointment-details {
+    border: solid 1px #b5b7c4;
+    width: 100%;
+    padding: 14px 17px 14px 17px;
+    border-radius: 12px;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #171f46;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .button {
+    height: 22px;
+    width: 26px;
+    background-color: transparent;
+    border-width: 0;
+  }
+  .star-img {
+    width: 19px;
+  }
+  .date {
+    font-size: 12px;
+    color: #b5b7c4;
+  }
+}
+@media (min-width: 767px) {
+  .appointment-details {
+    border: solid 1.5px #b5b7c4;
+    width: 320px;
+    padding: 14px 17px 14px 17px;
+    border-radius: 12px;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #171f46;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .button {
+    height: 25px;
+    width: 29px;
+    background-color: transparent;
+    border-width: 0;
+  }
+  .star-img {
+    width: 21px;
+  }
+  .date {
+    font-size: 15px;
+    color: #b5b7c4;
+  }
+}
